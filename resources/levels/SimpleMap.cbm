@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Level name="SimpleMap" author="Timm Hoffmeister" loadscreen="load.png">
+  
+  <Description> This is a very simple level for testing (also used for unittests of several Crazyballrun-classes). Enjoy it (if it doesn't crash!) and have lots of fun! </Description>
+
+  <Map width="20" height="20" layers="2" minimap="minimap">
+
+    <Textures>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="1" y="1" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="1" y="2" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="1" y="3" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="1" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="1" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="1" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="1" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="1" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="1" y="9" layer="0"/>
+
+      <Texture name="DefaultBridgeUpL1" number="1" change="0"          x="1" y="10" layer="0"/>
+      <Texture name="TextureDefaultHighFriction" number="1" change="0" x="1" y="11" layer="0"/>
+      <Texture name="DefaultBridgeDownL1" number="1" change="0"        x="1" y="12" layer="0"/>
+
+      <Texture name="DefaultBridgeUpL2" number="1" change="0"          x="1" y="10" layer="1"/>
+      <Texture name="DefaultBridgeBetween" number="1" change="0"       x="1" y="11" layer="1"/>
+      <Texture name="DefaultBridgeDownL2" number="1" change="0"        x="1" y="12" layer="1"/>
+
+      <Texture name="TextureDefaultGround" number="1" change="0" x="1" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="1" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="1" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="1" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="1" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="1" y="18" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="1" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="2" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="3" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="10" layer="0"/>
+      <Texture name="TextureDefaultHighFriction" number="1" change="0" x="2" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="2" y="18" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="1" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="2" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="3" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="10" layer="0"/>
+      <Texture name="TextureDefaultHighFriction" number="1" change="0" x="3" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="3" y="18" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="4" y="1" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="4" y="2" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="4" y="3" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="4" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="4" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="4" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="4" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="4" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="4" y="9" layer="0"/>
+
+      <Texture name="DefaultBridgeUpL1" number="1" change="0"          x="4" y="10" layer="0"/>
+      <Texture name="TextureDefaultHighFriction" number="1" change="0" x="4" y="11" layer="0"/>
+      <Texture name="DefaultBridgeDownL1" number="1" change="0"        x="4" y="12" layer="0"/>
+
+      <Texture name="DefaultBridgeUpL2" number="1" change="0"          x="4" y="10" layer="1"/>
+      <Texture name="DefaultBridgeBetween" number="1" change="0"       x="4" y="11" layer="1"/>
+      <Texture name="DefaultBridgeDownL2" number="1" change="0"        x="4" y="12" layer="1"/>
+
+      <Texture name="TextureDefaultGround" number="1" change="0" x="4" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="4" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="4" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="4" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="4" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="4" y="18" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="1" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="2" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="3" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="10" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="5" y="18" layer="0"/>
+
+      <Texture name="TextureDefaultGrid" number="1" change="0" x="6" y="1" layer="1"/>
+      <Texture name="TextureDefaultGrid" number="1" change="0" x="6" y="2" layer="1"/>
+      <Texture name="TextureDefaultGrid" number="1" change="0" x="6" y="3" layer="1"/>
+      <Texture name="TextureDefaultGrid" number="1" change="0" x="6" y="4" layer="1"/>
+
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="1" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="2" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="3" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="10" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="6" y="18" layer="0"/>
+
+      <Texture name="TextureDefaultGrid" number="1" change="0" x="7" y="1" layer="1"/>
+      <Texture name="TextureDefaultGrid" number="1" change="0" x="7" y="2" layer="1"/>
+      <Texture name="TextureDefaultGrid" number="1" change="0" x="7" y="3" layer="1"/>
+      <Texture name="TextureDefaultGrid" number="1" change="0" x="7" y="4" layer="1"/>
+
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="1" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="2" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="3" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="10" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="7" y="18" layer="0"/>
+
+      <Texture name="TextureDefaultGrid" number="1" change="0" x="8" y="1" layer="1"/>
+      <Texture name="TextureDefaultGrid" number="1" change="0" x="8" y="2" layer="1"/>
+      <Texture name="TextureDefaultGrid" number="1" change="0" x="8" y="3" layer="1"/>
+      <Texture name="TextureDefaultGrid" number="1" change="0" x="8" y="4" layer="1"/>
+
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="1" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="2" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="3" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="10" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="8" y="18" layer="0"/>
+      <Texture name="TextureDefaultHighFriction" number="1" change="0" x="9" y="1" layer="0"/>
+      <Texture name="TextureDefaultWater" number="4" change="50000" x="9" y="2" layer="0"/>
+      <Texture name="TextureDefaultWater" number="4" change="50000" x="9" y="3" layer="0"/>
+      <Texture name="TextureDefaultHighFriction" number="1" change="0" x="9" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="9" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="9" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="9" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="9" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="9" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="9" y="10" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="9" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="9" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="9" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="9" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="9" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="9" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="9" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="9" y="18" layer="0"/>
+      <Texture name="TextureDefaultIce" number="1" change="0" x="10" y="1" layer="0"/>
+      <Texture name="TextureDefaultIce" number="1" change="0" x="10" y="2" layer="0"/>
+      <Texture name="TextureDefaultIce" number="1" change="0" x="10" y="3" layer="0"/>
+      <Texture name="TextureDefaultIce" number="1" change="0" x="10" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="10" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="10" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="10" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="10" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="10" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="10" y="10" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="10" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="10" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="10" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="10" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="10" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="10" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="10" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="10" y="18" layer="0"/>
+      <Texture name="TextureDefaultIce" number="1" change="0" x="11" y="1" layer="0"/>
+      <Texture name="TextureDefaultIce" number="1" change="0" x="11" y="2" layer="0"/>
+      <Texture name="TextureDefaultIce" number="1" change="0" x="11" y="3" layer="0"/>
+      <Texture name="TextureDefaultIce" number="1" change="0" x="11" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="11" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="11" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="11" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="11" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="11" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="11" y="10" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="11" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="11" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="11" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="11" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="11" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="11" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="11" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="11" y="18" layer="0"/>
+      <Texture name="TextureDefaultIce" number="1" change="0" x="12" y="1" layer="0"/>
+      <Texture name="TextureDefaultIce" number="1" change="0" x="12" y="2" layer="0"/>
+      <Texture name="TextureDefaultIce" number="1" change="0" x="12" y="3" layer="0"/>
+      <Texture name="TextureDefaultIce" number="1" change="0" x="12" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="12" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="12" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="12" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="12" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="12" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="12" y="10" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="12" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="12" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="12" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="12" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="12" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="12" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="12" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="12" y="18" layer="0"/>
+
+      <Texture name="DefaultBridgeUpL1" number="1" change="0"    x="13" y="1" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="2" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="3" layer="0"/>
+      <Texture name="DefaultBridgeDownL1" number="1" change="0"  x="13" y="4" layer="0"/>
+
+      <Texture name="DefaultBridgeUpL2" number="1" change="0"    x="13" y="1" layer="1"/>
+      <Texture name="DefaultBridgeBetween" number="1" change="0" x="13" y="2" layer="1"/>
+      <Texture name="DefaultBridgeBetween" number="1" change="0" x="13" y="3" layer="1"/>
+      <Texture name="DefaultBridgeDownL2" number="1" change="0"  x="13" y="4" layer="1"/>
+
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="10" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="13" y="18" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="1" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="2" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="3" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="10" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="14" y="18" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="1" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="2" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="3" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="10" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="15" y="18" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="1" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="2" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="3" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="10" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="16" y="18" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="1" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="2" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="3" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="10" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="17" y="18" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="1" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="2" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="3" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="4" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="5" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="6" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="7" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="8" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="9" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="10" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="11" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="12" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="13" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="14" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="15" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="16" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="17" layer="0"/>
+      <Texture name="TextureDefaultGround" number="1" change="0" x="18" y="18" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="5" y="5" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="5" y="6" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="5" y="7" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="5" y="8" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="5" y="9" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="5" y="10" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="5" y="11" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="5" y="12" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="5" y="13" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="5" y="14" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="6" y="5" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="6" y="6" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="6" y="7" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="6" y="8" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="6" y="9" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="6" y="10" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="6" y="11" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="6" y="12" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="6" y="13" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="6" y="14" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="7" y="5" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="7" y="6" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="7" y="7" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="7" y="8" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="7" y="9" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="7" y="10" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="7" y="11" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="7" y="12" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="7" y="13" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="7" y="14" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="8" y="5" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="8" y="6" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="8" y="7" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="8" y="8" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="8" y="9" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="8" y="10" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="8" y="11" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="8" y="12" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="8" y="13" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="8" y="14" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="9" y="5" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="9" y="6" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="9" y="7" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="9" y="8" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="9" y="9" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="9" y="10" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="9" y="11" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="9" y="12" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="9" y="13" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="9" y="14" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="10" y="5" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="10" y="6" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="10" y="7" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="10" y="8" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="10" y="9" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="10" y="10" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="10" y="11" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="10" y="12" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="10" y="13" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="10" y="14" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="11" y="5" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="11" y="6" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="11" y="7" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="11" y="8" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="11" y="9" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="11" y="10" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="11" y="11" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="11" y="12" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="11" y="13" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="11" y="14" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="12" y="5" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="12" y="6" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="12" y="7" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="12" y="8" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="12" y="9" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="12" y="10" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="12" y="11" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="12" y="12" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="12" y="13" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="12" y="14" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="13" y="5" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="13" y="6" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="13" y="7" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="13" y="8" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="13" y="9" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="13" y="10" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="13" y="11" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="13" y="12" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="13" y="13" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="13" y="14" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="14" y="5" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="14" y="6" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="14" y="7" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="14" y="8" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="14" y="9" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="14" y="10" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="14" y="11" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="14" y="12" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="14" y="13" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="14" y="14" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="1" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="2" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="3" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="4" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="5" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="6" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="7" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="8" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="9" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="10" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="11" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="12" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="13" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="14" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="15" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="16" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="17" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="18" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="1" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="2" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="3" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="4" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="5" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="6" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="7" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="8" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="9" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="10" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="11" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="12" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="13" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="14" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="15" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="16" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="17" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="18" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="1" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="2" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="3" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="4" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="5" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="6" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="7" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="8" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="9" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="10" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="11" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="12" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="13" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="14" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="15" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="16" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="17" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="18" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="0" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="0" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="1" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="2" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="3" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="4" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="5" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="6" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="7" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="8" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="9" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="10" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="11" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="12" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="13" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="14" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="15" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="16" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="17" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="18" y="19" layer="0"/>
+      <Texture name="TextureDefaultWall" number="1" change="0" x="19" y="19" layer="0"/>
+    </Textures>
+
+    <Players>
+      <Player vehicle="BigTruck" x="2.0" y="2.0" rotation="1.6" layer="0"/>
+      <Player vehicle="Truck" x="2.0" y="3.0" rotation="1.6" layer="0"/>
+    </Players>
+
+    <Objects>
+<!--
+      <Object id="BigTruck" x="1.5" y="1.5" layer="0" rotation="1.6">
+        <Controller id="WaypointFollower">
+	   <Set id="Radius" value="0.3"/>
+           <Set id="Waypoint" value="4.0,1.5"/>
+           <Set id="Waypoint" value="4.0,4.0"/>
+           <Set id="Waypoint" value="1.5,4.0"/>
+           <Set id="Waypoint" value="1.5,1.5"/>
+       </Controller>
+      </Object>
+
+      <Object id="BigTruck" x="5.0" y="1.3" layer="0" rotation="1.6">
+        <Controller id="WaypointFollower">
+	   <Set id="Radius" value="0.1"/>
+           <Set id="Waypoint" value="12.0,1.3"/>
+           <Set id="Waypoint" value="12.0,2.5"/>
+           <Set id="Waypoint" value="18.0,2.5"/>
+           <Set id="Waypoint" value="18.0,18.0"/>
+           <Set id="Waypoint" value="1.5,18.0"/>
+           <Set id="Waypoint" value="1.5,1.3"/>
+       </Controller>
+      </Object>
+
+      <Object id="Rocket" x="4.0" y="1.3" layer="0" rotation="1.6">
+        <Controller id="WaypointFollower">
+	   <Set id="Radius" value="0.1"/>
+           <Set id="Waypoint" value="12.0,1.3"/>
+           <Set id="Waypoint" value="12.0,4.2"/>
+           <Set id="Waypoint" value="4.0,4.2"/>
+           <Set id="Waypoint" value="4.0,1.3"/>
+       </Controller>
+      </Object>
+-->
+    </Objects>
+
+  </Map>
+
+</Level>
+
